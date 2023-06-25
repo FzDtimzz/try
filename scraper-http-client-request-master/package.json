@@ -1,0 +1,40 @@
+{
+  "name": "scraper-http-client-request",
+  "version": "1.0.1",
+  "description": "HTTP client for scrapers with guaranted delivery (retry), concurrency, cookies jar, zlib, Cloudflare bypasser, rate limit (throttle)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarsky-tgz/scraper-http-client-request.git"
+  },
+  "keywords": [
+    "scraper",
+    "request-promise",
+    "http-client",
+    "scraping",
+    "toolkit",
+    "cloudflare-bypasser"
+  ],
+  "author": "Yaroslav Dobzhanskyi <yarsky@carpathian.ninja>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yarsky-tgz/scraper-http-client-request/issues"
+  },
+  "homepage": "https://github.com/yarsky-tgz/scraper-http-client-request#readme",
+  "dependencies": {
+    "cloudflare-bypasser": "0.0.3",
+    "deepmerge": "^4.2.2",
+    "promise-retry": "^2.0.1",
+    "request-promise-native": "^1.0.9"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0"
+  }
+}
